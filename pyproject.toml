@@ -10,6 +10,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { file = "LICENSE" }
 authors = [{ name = "dhwang0803", email = "dhwang0803@gmail.com" }]
+maintainers = [{ name = "gawon714", email = "gawon714@naver.com" }]
 keywords = ["claude-code", "ai-native", "scaffold", "agents", "tdd", "clean-architecture"]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -19,7 +20,7 @@ classifiers = [
 dependencies = []  # zero runtime deps — stdlib only (tomllib on 3.11+)
 
 [project.urls]
-Homepage = "https://github.com/dhwang0803/AI_Native_Kit"
+Homepage = "https://github.com/gawon714-gif/ai_native_kit"
 
 [project.scripts]
 ai-native-kit = "ai_native_kit.cli:main"
